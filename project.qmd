@@ -3,29 +3,56 @@ title: "Project"
 subtitle: "data set name"
 ---
 
-::: {.callout-important}
-This is a final project for course 1. This will not be graded, and is intended to provide you the opportunity to test the skills you've acquired throughout the course in a less structured environment. Reflection questions and rubric items can be found at the end of the project to help self-assessment. 
+::: callout-important
+This is a final project for course 1. This will not be graded, and is intended to provide you the opportunity to test the skills you've acquired throughout the course in a less structured environment. Reflection questions and rubric items can be found at the end of the project to help self-assessment.
 :::
 
+## Directions
+
+This final project consists of an exploratory data analysis and a write up of results you discovered. The data set you will be working with is called `OrchardSprays`. More information about this data set, and the prompt you will follow can be found in the **Introduction**. Using the tools you have learned in this course, calculate summary statistics and compelling data visualizations to help answer the research question(s). Include these creations in a the style of a report, practicing writing about your findings from this exploratory data analysis.
+
+## Introduction
+
+![](images/orchard.jpg){style="float: right;" fig-align="center" width="300" height="350"}
+
+An orchard is a plantation of trees or shrubs that is maintained for food production. Often, pesticides are used to control various pests and disease carriers. However, an unintended consequence of using pesticides is the deterrent of honeybees. The presence of honeybees in the orchards is crucial for the production of foods and crops.
+
+"An experiment was conducted to assess the potency of various constituents of orchard sprays in repelling honeybees. An orchard was divided into square, and each square was randomly assigned a varying amount of lime sulphur". [McNeil, D. R.](https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/OrchardSprays.html)
+
+The responses for the different treatments were obtained by releasing 100 bees into the chamber for two hours, and then measuring the decrease in volume of the solutions in the various cells. **Is decrease good or bad**?
 
 
+A data table for this experiment can be seen below:
+
+| variable  | description                                                               |
+|-----------|---------------------------------------------------------------------------|
+| rowpos    | numeric row of the design                                                 |
+| colpos    | numeric column of the design                                              |
+| treatment | treatment level (A having the highest level ... H having no lime sulphur) |
+| decrease  | decrease in volume of the solutions                                       |
+
+**Research Question**: You are tasked to investigate which treatment(s) produced the highest decrease in solution. Additionally, you are interested in seeing if, regardless of treatment, the first four rows of the orchard showed more or less of a decress in solutions than the last four rows. 
+
+## Methods 
+
+## Discussions 
 
 ::: {.callout-tip collapse="true"}
 ## Rubric items
 
-- List
+-   List
 
-- of 
+-   of
 
-- things
+-   things
 :::
 
 ::: {.callout-tip collapse="true"}
 ## Reflection questions
 
-- List
+-   List
 
-- of 
+-   of
 
-- things
+-   things
 :::
