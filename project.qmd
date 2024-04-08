@@ -1,0 +1,31 @@
+---
+title: "Project"
+subtitle: "data set name"
+---
+
+::: {.callout-important}
+This is a final project for course 1. This will not be graded, and is intended to provide you the opportunity to test the skills you've acquired throughout the course in a less structured environment. Reflection questions and rubric items can be found at the end of the project to help self-assessment. 
+:::
+
+
+
+
+::: {.callout-tip collapse="true"}
+## Rubric items
+
+- List
+
+- of 
+
+- things
+:::
+
+::: {.callout-tip collapse="true"}
+## Reflection questions
+
+- List
+
+- of 
+
+- things
+:::
