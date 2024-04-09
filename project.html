@@ -152,8 +152,8 @@ Important
 </figure>
 </div>
 <p>An orchard is a plantation of trees or shrubs that is maintained for food production. Often, pesticides are used to control for various pests and disease carriers. However, an unintended consequence of using pesticides is the deterrent of honeybees. The presence of honeybees in orchards is crucial for the production of food.</p>
-<p>Researchers conducted an experiment to assess the potency of various pesticides in repelling honeybees. There was a total of 8 different levels of pesticide (treatment) with varying amounts of lime sulphur. Each of these 8 treatments were used 8 times, randomly assigned to the orchard that was divided into 64 squares.</p>
-<p>The response variable (decrease) for the different treatment levels of pesticides were obtained by releasing 100 bees into each square for 2 hours and measuring the decrease in volume of the solutions. A decrease in solution means that the honey bees are not repelled and are visiting the plants as normal <span class="citation" data-cites="mcneil1977">(<a href="#ref-mcneil1977" role="doc-biblioref">McNeil 1977</a>)</span>.</p>
+<p>Researchers conducted an experiment to assess the potency of various pesticides in repelling honeybees. There was a total of 8 different levels of pesticide (<code>treatment</code>) with varying amounts of lime sulphur. Each of these 8 treatments were used 8 times, randomly assigned to the orchard that was divided into 64 squares.</p>
+<p>The response variable (<code>decrease</code>) for the different treatment levels of pesticides were obtained by releasing 100 bees into each square for 2 hours and measuring the decrease in volume of the solutions. A decrease in solution means that the honey bees are not repelled and are visiting the plants as normal <span class="citation" data-cites="mcneil1977">(<a href="#ref-mcneil1977" role="doc-biblioref">McNeil 1977</a>)</span>.</p>
 <p>A data table for this experiment can be seen below:</p>
 <table class="table">
 <colgroup>
@@ -168,25 +168,25 @@ Important
 </thead>
 <tbody>
 <tr class="odd">
-<td>rowpos</td>
+<td><code>rowpos</code></td>
 <td>numeric row of the design</td>
 </tr>
 <tr class="even">
-<td>colpos</td>
+<td><code>colpos</code></td>
 <td>numeric column of the design</td>
 </tr>
 <tr class="odd">
-<td>treatment</td>
+<td><code>treatment</code></td>
 <td>treatment level (A having the highest level … H having no lime sulphur)</td>
 </tr>
 <tr class="even">
-<td>decrease</td>
+<td><code>decrease</code></td>
 <td>decrease in volume of the solutions</td>
 </tr>
 </tbody>
 </table>
 <p><strong>Research Question</strong>: You are tasked to investigate which treatment(s) of pesticides produced the highest decrease in solution. Additionally, you are interested in seeing if, regardless of treatment, the first four rows of the orchard showed more or less of a decrease in solutions than the last four rows.</p>
-<p>Hint: you may need to make a new variable in order to answer the second research question.</p>
+<p>Hint: you may need to make a new variable in order to answer the second research question. You may also find the function <a href="https://dplyr.tidyverse.org/reference/if_else.html"><code>if_else()</code></a> useful.</p>
 <div class="callout callout-style-default callout-important callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
