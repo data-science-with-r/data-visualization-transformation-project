@@ -46,7 +46,7 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Project</h1>
-<p class="subtitle lead">data set name</p>
+<p class="subtitle lead">Investigation into the relationship between honeybees and pesticides on orchards</p>
 </div>
 
 
@@ -73,12 +73,12 @@ Important
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>This is a final project for course 1. This will not be graded, and is intended to provide you the opportunity to test the skills you’ve acquired throughout the course in a less structured environment. Reflection questions and rubric items can be found at the end of the project to help self-assessment.</p>
+<p>This is a final project for course 1. This will not be graded, and is intended to provide you with the opportunity to test the skills you’ve acquired throughout the course in a less structured environment. Reflection questions and rubric items can be found at the end of the project to help self-assessment.</p>
 </div>
 </div>
 <section id="directions" class="level2">
 <h2 class="anchored" data-anchor-id="directions">Directions</h2>
-<p>This final project consists of an exploratory data analysis and a write up of results you discovered. The data set you will be working with is called <code>OrchardSprays</code>. More information about this data set, and the prompt you will follow can be found in the <strong>Introduction</strong>. Using the tools you have learned in this course, calculate summary statistics and compelling data visualizations to help answer the research question(s). Include these creations in a the style of a report, practicing writing about your findings from this exploratory data analysis.</p>
+<p>This final project consists of an exploratory data analysis and write up of results you discovered. The data set you will be working with is called <code>OrchardSprays</code>. More information about this data set, and the research questions you will investigate can be found in the <strong>Introduction</strong>. Using the tools you have learned in this course, calculate summary statistics and compelling data visualizations to help answer the research question(s). Include these creations in a the style of a report outlined below, practicing writing about your findings from this exploratory data analysis.</p>
 </section>
 <section id="introduction" class="level2">
 <h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
@@ -88,8 +88,8 @@ Important
 </figure>
 </div>
 <p>An orchard is a plantation of trees or shrubs that is maintained for food production. Often, pesticides are used to control various pests and disease carriers. However, an unintended consequence of using pesticides is the deterrent of honeybees. The presence of honeybees in the orchards is crucial for the production of foods and crops.</p>
-<p>“An experiment was conducted to assess the potency of various constituents of orchard sprays in repelling honeybees. An orchard was divided into square, and each square was randomly assigned a varying amount of lime sulphur”. <a href="https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/OrchardSprays.html">McNeil, D. R.</a></p>
-<p>The responses for the different treatments were obtained by releasing 100 bees into the chamber for two hours, and then measuring the decrease in volume of the solutions in the various cells. <strong>Is decrease good or bad</strong>?</p>
+<p>Researchers conducted an experiment to assess the potency of various pesticides in repelling honeybees. An orchard was divided into 64 squares, and each square was randomly assigned a varying amount of lime sulphur.</p>
+<p>The response variable for the different levels of pesticides were obtained by releasing 100 bees into each square for 2 hours and measuring the decrease in volume of the solutions bees typical collect in the squares. A decrease is solution means that the honey bees are not deterred, and visiting the plants as normal.</p>
 <p>A data table for this experiment can be seen below:</p>
 <table class="table">
 <colgroup>
@@ -121,15 +121,30 @@ Important
 </tr>
 </tbody>
 </table>
-<p><strong>Research Question</strong>: You are tasked to investigate which treatment(s) produced the highest decrease in solution. Additionally, you are interested in seeing if, regardless of treatment, the first four rows of the orchard showed more or less of a decress in solutions than the last four rows.</p>
+<p><strong>Research Question</strong>: You are tasked to investigate which treatment(s) of pesticides produced the highest decrease in solution. Additionally, you are interested in seeing if, regardless of treatment, the first four rows of the orchard showed more or less of a decrease in solutions than the last four rows.</p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><img src="images/github.png" class="quarto-figure quarto-figure-left" width="25" height="25"> - <strong>Version control with GitHub</strong> <br> This project also provides you with the opportunity to practice using version control, often expected to be used in a real-world context. We challenge you to <strong>Render</strong>; <strong>Commit</strong>; and <strong>Push</strong> after each visualization or summary statistics you create. If you are working on a project with more than one contribute, make sure that you <strong>Pull</strong> before making any progress to ensure your project matches up with the project repository.</p>
+</div>
+</div>
 </section>
 <section id="methods" class="level2">
 <h2 class="anchored" data-anchor-id="methods">Methods</h2>
+<p>The methods section should include visualizations and summary statistics relevant to your research question(s). These should be accompanied with descriptions / takeaways from your creations.</p>
 </section>
-<section id="discussions" class="level2">
-<h2 class="anchored" data-anchor-id="discussions">Discussions</h2>
+<section id="discussion" class="level2">
+<h2 class="anchored" data-anchor-id="discussion">Discussion</h2>
+<p>In this section you’ll include a summary of what you have learned about your research question and will discuss your overall findings and describe the key results from your analysis.</p>
 <div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -138,7 +153,7 @@ Rubric items
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <ul>
 <li><p>List</p></li>
@@ -149,7 +164,7 @@ Rubric items
 </div>
 </div>
 <div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -158,7 +173,7 @@ Reflection questions
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <ul>
 <li><p>List</p></li>
