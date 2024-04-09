@@ -1,11 +1,22 @@
 ---
 title: "Project"
 subtitle: "Investigation into the relationship between honeybees and pesticides on orchards"
+bibliography: references.bib
 ---
 
 ::: callout-important
 This is a final project for course 1. This will not be graded, and is intended to provide you with the opportunity to test the skills you've acquired throughout the course in a less structured environment. Reflection questions and rubric items can be found at the end of the project to help self-assessment.
 :::
+
+## Packages 
+
+```{r}
+#| warning: false
+#| message: false
+library(tidyverse)
+library(scales)
+```
+
 
 ## Directions
 
@@ -19,7 +30,7 @@ An orchard is a plantation of trees or shrubs that is maintained for food produc
 
 Researchers conducted an experiment to assess the potency of various pesticides in repelling honeybees. An orchard was divided into 64 squares, and each square was randomly assigned a varying amount of lime sulphur. 
 
-The response variable for the different levels of pesticides were obtained by releasing 100 bees into each square for 2 hours and measuring the decrease in volume of the solutions bees typical collect in the squares. A decrease is solution means that the honey bees are not deterred, and visiting the plants as normal. 
+The response variable for the different levels of pesticides were obtained by releasing 100 bees into each square for 2 hours and measuring the decrease in volume of the solutions bees typical collect in the squares. A decrease is solution means that the honey bees are not deterred, and visiting the plants as normal [@mcneil1977]. 
 
 A data table for this experiment can be seen below:
 
@@ -32,6 +43,8 @@ A data table for this experiment can be seen below:
 
 **Research Question**: You are tasked to investigate which treatment(s) of pesticides produced the highest decrease in solution. Additionally, you are interested in seeing if, regardless of treatment, the first four rows of the orchard showed more or less of a decrease in solutions than the last four rows. 
 
+Hint: you may need to make a new variable in order to answer the second research question.
+
 ::: callout-important
 ![](images/github.png){fig-align="left" width="25" height="25"} - **Version control with GitHub** <br>
 This project also provides you with the opportunity to practice using version control, often expected to be used in a real-world context. We challenge you to **Render**; **Commit**; and **Push** after each visualization or summary statistics you create. If you are working on a project with more than one contribute, make sure that you **Pull** before making any progress to ensure your project matches up with the project repository.
@@ -41,26 +54,27 @@ This project also provides you with the opportunity to practice using version co
 
 The methods section should include visualizations and summary statistics relevant to your research question(s). These should be accompanied with descriptions / takeaways from your creations.
 
+
 ## Discussion
 
 In this section you’ll include a summary of what you have learned about your research question and will discuss your overall findings and describe the key results from your analysis.
 
+## Self rubric
+
+Below are a collection of rubric items to self assess your report.
+
 ::: {.callout-tip collapse="true"}
 ## Rubric items
 
--   List
+-   Report should include 1-2 visualizations with accompanying summary statistics per research question. 
 
--   of
+-   All visualizations should be appropriately labeled, including having a title and customized axes. 
 
--   things
+-   Only plots and summary statistics that are relevant to the research question(s) should be created.
+
+-   Should come to the conclusion that the more potent the pesticide, the less decrease in volume of solution. 
+
+-   Should come to the conclusion that regardless of treatment, the mean decrease is volume of solution is roughly 10 more for the top 4 rows than the bottom 4 rows. 
 :::
 
-::: {.callout-tip collapse="true"}
-## Reflection questions
-
--   List
-
--   of
-
--   things
-:::
+## References

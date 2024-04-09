@@ -20,7 +20,61 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="project_files/libs/clipboard/clipboard.min.js"></script>
@@ -76,6 +130,13 @@ Important
 <p>This is a final project for course 1. This will not be graded, and is intended to provide you with the opportunity to test the skills you’ve acquired throughout the course in a less structured environment. Reflection questions and rubric items can be found at the end of the project to help self-assessment.</p>
 </div>
 </div>
+<section id="packages" class="level2">
+<h2 class="anchored" data-anchor-id="packages">Packages</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(scales)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
 <section id="directions" class="level2">
 <h2 class="anchored" data-anchor-id="directions">Directions</h2>
 <p>This final project consists of an exploratory data analysis and write up of results you discovered. The data set you will be working with is called <code>OrchardSprays</code>. More information about this data set, and the research questions you will investigate can be found in the <strong>Introduction</strong>. Using the tools you have learned in this course, calculate summary statistics and compelling data visualizations to help answer the research question(s). Include these creations in a the style of a report outlined below, practicing writing about your findings from this exploratory data analysis.</p>
@@ -89,7 +150,7 @@ Important
 </div>
 <p>An orchard is a plantation of trees or shrubs that is maintained for food production. Often, pesticides are used to control various pests and disease carriers. However, an unintended consequence of using pesticides is the deterrent of honeybees. The presence of honeybees in the orchards is crucial for the production of foods and crops.</p>
 <p>Researchers conducted an experiment to assess the potency of various pesticides in repelling honeybees. An orchard was divided into 64 squares, and each square was randomly assigned a varying amount of lime sulphur.</p>
-<p>The response variable for the different levels of pesticides were obtained by releasing 100 bees into each square for 2 hours and measuring the decrease in volume of the solutions bees typical collect in the squares. A decrease is solution means that the honey bees are not deterred, and visiting the plants as normal.</p>
+<p>The response variable for the different levels of pesticides were obtained by releasing 100 bees into each square for 2 hours and measuring the decrease in volume of the solutions bees typical collect in the squares. A decrease is solution means that the honey bees are not deterred, and visiting the plants as normal <span class="citation" data-cites="mcneil1977">(<a href="#ref-mcneil1977" role="doc-biblioref">McNeil 1977</a>)</span>.</p>
 <p>A data table for this experiment can be seen below:</p>
 <table class="table">
 <colgroup>
@@ -122,6 +183,7 @@ Important
 </tbody>
 </table>
 <p><strong>Research Question</strong>: You are tasked to investigate which treatment(s) of pesticides produced the highest decrease in solution. Additionally, you are interested in seeing if, regardless of treatment, the first four rows of the orchard showed more or less of a decrease in solutions than the last four rows.</p>
+<p>Hint: you may need to make a new variable in order to answer the second research question.</p>
 <div class="callout callout-style-default callout-important callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -143,6 +205,10 @@ Important
 <section id="discussion" class="level2">
 <h2 class="anchored" data-anchor-id="discussion">Discussion</h2>
 <p>In this section you’ll include a summary of what you have learned about your research question and will discuss your overall findings and describe the key results from your analysis.</p>
+</section>
+<section id="self-rubric" class="level2">
+<h2 class="anchored" data-anchor-id="self-rubric">Self rubric</h2>
+<p>Below are a collection of rubric items to self assess your report.</p>
 <div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
@@ -156,36 +222,26 @@ Rubric items
 <div id="callout-3" class="callout-3-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <ul>
-<li><p>List</p></li>
-<li><p>of</p></li>
-<li><p>things</p></li>
-</ul>
-</div>
-</div>
-</div>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Reflection questions
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-4" class="callout-4-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<ul>
-<li><p>List</p></li>
-<li><p>of</p></li>
-<li><p>things</p></li>
+<li><p>Report should include 1-2 visualizations with accompanying summary statistics per research question.</p></li>
+<li><p>All visualizations should be appropriately labeled, including having a title and customized axes.</p></li>
+<li><p>Only plots and summary statistics that are relevant to the research question(s) should be created.</p></li>
+<li><p>Should come to the conclusion that the more potent the pesticide, the less decrease in volume of solution.</p></li>
+<li><p>Should come to the conclusion that regardless of treatment, the mean decrease is volume of solution is roughly 10 more for the top 4 rows than the bottom 4 rows.</p></li>
 </ul>
 </div>
 </div>
 </div>
 </section>
+<section id="references" class="level2 unnumbered">
 
-</main>
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-mcneil1977" class="csl-entry" role="listitem">
+McNeil, D. R. 1977. <em>Interactive Data Analysis: A Practical Primer</em>. A Wiley-Interscience Publication. Wiley. <a href="https://books.google.com/books?id=fuBQAAAAMAAJ">https://books.google.com/books?id=fuBQAAAAMAAJ</a>.
+</div>
+</div></section></div></main>
 <!-- /main column -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
