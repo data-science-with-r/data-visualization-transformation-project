@@ -84,10 +84,8 @@ useful.
 > 
 ## Citations 
 
-Your project files includes a referecnes.bib. This is a txt file that allows you to automatically generate a references section by putting references in a plain text file with the extension .bib.
-Then reference the path to this file in index.qmd's YAML header with bibliography: references.bib.
+When working on your project, you may want to include outside sources. When doing so, we need to make sure these sources are properly cited. In order to do so, we need to create a .bib file and specify it in your index.qmd's YAML heading. Your project files include a references.bib txt file. This is where you will put bibtex entries. An example of an entry to be referenced can be seen below: 
 
-Here is an example of an entry in a .bib file:
 ```
 @article{Cetinkaya2020,
 	title        = {A Fresh Look at Introductory Data Science},
@@ -101,9 +99,9 @@ Here is an example of an entry in a .bib file:
 }
 
 ```
-
 In this entry above, Cetinkaya2020 is the citation identifier. To default way to cite an entry in your text is with this syntax: [@citation-identifier].
 
+To automatically generate a references section with your entries, the path to the .bib file needs to be specified in your YAML with bibliography: references.bib. This has been done for you. 
 
 ## Self rubric
 
