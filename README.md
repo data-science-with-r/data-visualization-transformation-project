@@ -115,6 +115,8 @@ Below are a collection of rubric items to self assess your report.
 
 </details>
 
+## Acknowledgements
+
 This final project was inspired by McNeil D. R. 
 
 McNeil, D. R. 1977. Interactive Data Analysis: A Practical Primer. A Wiley-Interscience Publication. Wiley. https://books.google.com/books?id=fuBQAAAAMAAJ.
