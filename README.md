@@ -16,7 +16,7 @@
 ## Instructions
 
 This final project consists of an exploratory data analysis and write up
-of results you discovered. The data set you will be working with is
+of results you discover. The data set you will be working with is a pre-packaged R data set
 called `OrchardSprays`. Your write up will consist of three sections.
 
 **Introduction** - The introduction contains more information about your
