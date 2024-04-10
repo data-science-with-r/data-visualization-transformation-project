@@ -81,7 +81,12 @@ useful.
 > a project with more than one contribute, make sure that you **Pull**
 > before making any progress to ensure your project matches up with the
 > project repository.
-> 
+
+## Displaying code
+
+Depending on the purpose of the project, it may be advantageous to either show or hide all of your code in your rendered document. To hide all of your code, set `echo: false` in your YAML. If you want to display your code, set `echo: true`.   
+ 
+ 
 ## Citations 
 
 When working on your project, you may want to include outside sources. When doing so, we need to make sure these sources are properly cited. In order to do so, we need to create a .bib file and specify it in your index.qmd's YAML heading. Your project files include a references.bib txt file. This is where you will put bibtex entries. An example of an entry to be referenced can be seen below: 
