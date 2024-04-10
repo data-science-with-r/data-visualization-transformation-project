@@ -1,6 +1,7 @@
 ---
 title: "Project"
 subtitle: "Investigation into the relationship between honeybees and pesticides on orchards"
+echo: false
 bibliography: references.bib
 ---
 
