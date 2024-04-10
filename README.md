@@ -13,13 +13,6 @@
 > Rubric items can be found at the end of the README in the Self rubric section to help self-assessment of your project. Do not expand the rubric items until you have finished a draft of your project. 
 
 
-## Packages
-
-``` r
-library(tidyverse)
-library(scales)
-```
-
 ## Instructions
 
 This final project consists of an exploratory data analysis and write up
