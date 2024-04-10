@@ -81,6 +81,28 @@ useful.
 > a project with more than one contribute, make sure that you **Pull**
 > before making any progress to ensure your project matches up with the
 > project repository.
+> 
+## Citations 
+
+Your project files includes a referecnes.bib. This is a txt file that allows you to automatically generate a references section by putting references in a plain text file with the extension .bib.
+Then reference the path to this file in index.qmd's YAML header with bibliography: references.bib.
+
+Here is an example of an entry in a .bib file:
+```
+@article{Cetinkaya2020,
+	title        = {A Fresh Look at Introductory Data Science},
+	author       = {Cetinkaya, Mine and Ellison, Victoria},
+	year         = 2020,
+	month        = {08},
+	journal      = {Journal of Statistics Education},
+	volume       = 29,
+	pages        = {1--27},
+	doi          = {10.1080/10691898.2020.1804497}
+}
+
+```
+
+In this entry above, Cetinkaya2020 is the citation identifier. To default way to cite an entry in your text is with this syntax: [@citation-identifier].
 
 
 ## Self rubric
