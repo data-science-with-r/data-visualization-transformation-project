@@ -46,7 +46,7 @@ The response variable (`decrease`) for the different treatment levels of
 pesticides were obtained by releasing 100 bees into each square for 2
 hours and measuring the decrease in volume of the solutions. A decrease
 in solution means that the honey bees are not repelled and are visiting
-the plants as normal \[@mcneil1977\].
+the plants as normal [McNeil, 1977](https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/OrchardSprays.html
 
 A data table for this experiment can be seen below:
 
