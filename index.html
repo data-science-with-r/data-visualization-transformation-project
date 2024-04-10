@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.28">
+<meta name="generator" content="quarto-1.4.530">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -54,27 +54,7 @@ div.sourceCode
 @media screen {
 pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-  margin-bottom: 0em;
-}
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 
 <script src="index_files/libs/clipboard/clipboard.min.js"></script>
@@ -117,32 +97,12 @@ div.csl-indent {
 </header>
 
 
-<div class="callout callout-style-default callout-important callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Important
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>This is a final project for course 1. This will not be graded, and is intended to provide you with the opportunity to test the skills you’ve acquired throughout the course in a less structured environment. Reflection questions and rubric items can be found at the end of the project to help self-assessment.</p>
-</div>
-</div>
 <section id="packages" class="level2">
 <h2 class="anchored" data-anchor-id="packages">Packages</h2>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(scales)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-</section>
-<section id="instructions" class="level2">
-<h2 class="anchored" data-anchor-id="instructions">Instructions</h2>
-<p>This final project consists of an exploratory data analysis and write up of results you discovered. The data set you will be working with is called <code>OrchardSprays</code>. Your write up will consist of three sections.</p>
-<p><strong>Introduction</strong> - The introduction contains more information about your data set and the research question(s) you are tasked to investigate.</p>
-<p><strong>Methods</strong> - The methods section should include visualizations and summary statistics relevant to your research question(s). These should be accompanied with written descriptions.</p>
-<p><strong>Discussion</strong> - In this section you’ll include a written summary of what you have learned about your research question(s), will discuss your overall findings, and describe the key results from your analysis.</p>
 </section>
 <section id="introduction" class="level2">
 <h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
@@ -151,55 +111,7 @@ Important
 <p><img src="images/orchard.jpg" class="quarto-figure quarto-figure-center figure-img" style="float: right;" width="300" height="350"></p>
 </figure>
 </div>
-<p>An orchard is a plantation of trees or shrubs that is maintained for food production. Often, pesticides are used to control for various pests and disease carriers. However, an unintended consequence of using pesticides is the deterrent of honeybees. The presence of honeybees in orchards is crucial for the production of food.</p>
-<p>Researchers conducted an experiment to assess the potency of various pesticides in repelling honeybees. There was a total of 8 different levels of pesticide (<code>treatment</code>) with varying amounts of lime sulphur. Each of these 8 treatments were used 8 times, randomly assigned to the orchard that was divided into 64 squares.</p>
-<p>The response variable (<code>decrease</code>) for the different treatment levels of pesticides were obtained by releasing 100 bees into each square for 2 hours and measuring the decrease in volume of the solutions. A decrease in solution means that the honey bees are not repelled and are visiting the plants as normal <span class="citation" data-cites="mcneil1977">(<a href="#ref-mcneil1977" role="doc-biblioref">McNeil 1977</a>)</span>.</p>
-<p>A data table for this experiment can be seen below:</p>
-<table class="table">
-<colgroup>
-<col style="width: 12%">
-<col style="width: 87%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>variable</th>
-<th>description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><code>rowpos</code></td>
-<td>numeric row of the design</td>
-</tr>
-<tr class="even">
-<td><code>colpos</code></td>
-<td>numeric column of the design</td>
-</tr>
-<tr class="odd">
-<td><code>treatment</code></td>
-<td>treatment level (A having the highest level … H having no lime sulphur)</td>
-</tr>
-<tr class="even">
-<td><code>decrease</code></td>
-<td>decrease in volume of the solutions</td>
-</tr>
-</tbody>
-</table>
-<p><strong>Research Question</strong>: You are tasked to investigate which treatment(s) of pesticides produced the highest decrease in solution. Additionally, you are interested in seeing if, regardless of treatment, the first four rows of the orchard showed more or less of a decrease in solutions than the last four rows.</p>
-<p>Hint: you may need to make a new variable in order to answer the second research question. You may also find the function <a href="https://dplyr.tidyverse.org/reference/if_else.html"><code>if_else()</code></a> useful.</p>
-<div class="callout callout-style-default callout-important callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Important
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p><img src="images/github.png" class="quarto-figure quarto-figure-left" width="25" height="25"> - <strong>Version control with GitHub</strong> <br> This project also provides you with the opportunity to practice using version control, often expected to be used in a real-world context. We challenge you to <strong>Render</strong>; <strong>Commit</strong>; and <strong>Push</strong> after each visualization or summary statistics you create. If you are working on a project with more than one contribute, make sure that you <strong>Pull</strong> before making any progress to ensure your project matches up with the project repository.</p>
-</div>
-</div>
+<p><strong>Research Question</strong>: Using the <code>OrchardSprays</code> data set in R, you are tasked to investigate which treatment(s) of pesticides produced the highest decrease in solution. Additionally, you are interested in seeing if, regardless of treatment, the first four rows of the orchard showed more or less of a decrease in solutions than the last four rows.</p>
 </section>
 <section id="methods" class="level2">
 <h2 class="anchored" data-anchor-id="methods">Methods</h2>
@@ -209,42 +121,8 @@ Important
 <h2 class="anchored" data-anchor-id="discussion">Discussion</h2>
 <p>Write here.</p>
 </section>
-<section id="self-rubric" class="level2">
-<h2 class="anchored" data-anchor-id="self-rubric">Self rubric</h2>
-<p>Below are a collection of rubric items to self assess your report.</p>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Rubric items
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-3" class="callout-3-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<ul>
-<li><p>Report should include 1-2 visualizations with accompanying summary statistics per research question.</p></li>
-<li><p>All visualizations should be appropriately labeled, including having a title and customized axes.</p></li>
-<li><p>Only plots and summary statistics that are relevant to the research question(s) should be created.</p></li>
-<li><p>Should come to the conclusion that the more potent the pesticide, the less decrease in volume of solution.</p></li>
-<li><p>Should come to the conclusion that regardless of treatment, the mean decrease is volume of solution is roughly 10 more for the top 4 rows than the bottom 4 rows.</p></li>
-</ul>
-</div>
-</div>
-</div>
-</section>
-<section id="references" class="level2 unnumbered">
 
-
-</section>
-
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
-<div id="ref-mcneil1977" class="csl-entry" role="listitem">
-McNeil, D. R. 1977. <em>Interactive Data Analysis: A Practical Primer</em>. A Wiley-Interscience Publication. Wiley. <a href="https://books.google.com/books?id=fuBQAAAAMAAJ">https://books.google.com/books?id=fuBQAAAAMAAJ</a>.
-</div>
-</div></section></div></main>
+</main>
 <!-- /main column -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
@@ -281,7 +159,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const onCopySuccess = function(e) {
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -313,47 +202,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
-  }
-  const getTextToCopy = function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-  }
-  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
-    text: getTextToCopy
   });
-  clipboard.on('success', onCopySuccess);
-  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
-    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
-      text: getTextToCopy,
-      container: window.document.getElementById('quarto-embedded-source-code-modal')
-    });
-    clipboardModal.on('success', onCopySuccess);
-  }
-    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-    var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
-    var isInternal = (href) => {
-        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
-    }
-    // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
-    for (var i=0; i<links.length; i++) {
-      const link = links[i];
-      if (!isInternal(link.href)) {
-        // undo the damage that might have been done by quarto-nav.js in the case of
-        // links that we want to consider external
-        if (link.dataset.originalHref !== undefined) {
-          link.href = link.dataset.originalHref;
-        }
-      }
-    }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
@@ -388,11 +237,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      if (note) {
-        return note.innerHTML;
-      } else {
-        return "";
-      }
+      return note.innerHTML;
     });
   }
   const xrefs = window.document.querySelectorAll('a.quarto-xref');
@@ -440,12 +285,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
-      if (note.classList.contains("callout")) {
-        return note.outerHTML;
-      } else {
-        return note.innerHTML;
-      }
+      return note.innerHTML;
     }
   }
   for (var i=0; i<xrefs.length; i++) {
