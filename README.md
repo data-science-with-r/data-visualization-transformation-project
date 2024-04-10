@@ -32,9 +32,9 @@ overall findings, and describe the key results from your analysis.
 
 ## Introduction
 
-| <img src="images/orchard.jpg" style="float: right;" width="300" height="350" /> |
+<img align="right" src="images/orchard.jpg" width="300" height="350" /> 
 
-| An orchard is a plantation of trees or shrubs that is maintained for
+An orchard is a plantation of trees or shrubs that is maintained for
 food production. Often, pesticides are used to control for various pests
 and disease carriers. However, an unintended consequence of using
 pesticides is the deterrent of honeybees. The presence of honeybees in
@@ -50,7 +50,7 @@ The response variable (`decrease`) for the different treatment levels of
 pesticides were obtained by releasing 100 bees into each square for 2
 hours and measuring the decrease in volume of the solutions. A decrease
 in solution means that the honey bees are not repelled and are visiting
-the plants as normal \[@mcneil1977\]. |
+the plants as normal \[@mcneil1977\].
 
 A data table for this experiment can be seen below:
 
