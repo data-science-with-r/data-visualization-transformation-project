@@ -17,7 +17,7 @@
 
 This final project consists of an exploratory data analysis and write up
 of results you discover. The data set you will be working with is a pre-packaged R data set
-called `OrchardSprays`. Your write up will consist of two sections.
+called `OrchardSprays`. Your write up, in the project qmd, will consist of two sections.
 
 **Methods** - The methods section should include visualizations and
 summary statistics relevant to your research question(s). These should
@@ -82,13 +82,6 @@ useful.
 > before making any progress to ensure your project matches up with the
 > project repository.
 
-## Methods
-
-Write / create here.
-
-## Discussion
-
-Write here.
 
 ## Self rubric
 
