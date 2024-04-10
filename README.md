@@ -102,7 +102,6 @@ When working on your project, you may want to include outside sources. When doin
 	pages        = {1--27},
 	doi          = {10.1080/10691898.2020.1804497}
 }
-
 ```
 In this entry above, Cetinkaya2020 is the citation identifier. To default way to cite an entry in your text is with this syntax: [@citation-identifier].
 
