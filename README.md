@@ -17,18 +17,14 @@
 
 This final project consists of an exploratory data analysis and write up
 of results you discover. The data set you will be working with is a pre-packaged R data set
-called `OrchardSprays`. Your write up will consist of three sections.
-
-**Introduction** - The introduction contains more information about your
-data set and the research question(s) you are tasked to investigate.
+called `OrchardSprays`. Your write up will consist of two sections.
 
 **Methods** - The methods section should include visualizations and
 summary statistics relevant to your research question(s). These should
 be accompanied with written descriptions.
 
-**Discussion** - In this section you’ll include a written summary of
-what you have learned about your research question(s), will discuss your
-overall findings, and describe the key results from your analysis.
+**Discussion** - The discussion section should include a written summary of
+what you have learned about your research question(s) and describe the key results from your analysis.
 
 ## Introduction
 
