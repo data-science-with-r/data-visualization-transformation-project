@@ -11,8 +11,9 @@
 > This project is also structured for you to host on a webpage and link as proof of work on your resume / cv. 
 >
 > Rubric items can be found at the end of the README to help self-assessment of your project.
->
-> <details>
+
+
+<details>
   <summary>Click me</summary>
   
   ### Heading
