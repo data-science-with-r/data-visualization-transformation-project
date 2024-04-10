@@ -33,7 +33,7 @@ overall findings, and describe the key results from your analysis.
 ## Introduction
 
 <img src="images/orchard.jpg" style="float: right;"
-data-fig-align="center" width="300" height="350" />
+width="300" height="350" />
 
 An orchard is a plantation of trees or shrubs that is maintained for
 food production. Often, pesticides are used to control for various pests
