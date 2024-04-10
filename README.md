@@ -10,25 +10,8 @@
 > acquired throughout the course in a less structured environment.
 > This project is also structured for you to host on a webpage and link as proof of work on your resume / cv. 
 >
-> Rubric items can be found at the end of the README to help self-assessment of your project.
+> Rubric items can be found at the end of the README to help self-assessment of your project. Do not expand the rubric items until you have finished a draft of your project. 
 
-
-<details>
-  <summary>Click me</summary>
-  
-  ### Heading
-  1. Foo
-  2. Bar
-     * Baz
-     * Qux
-
-  ### Some Javascript
-  ```js
-  function logSomething(something) {
-    console.log('Something', something);
-  }
-  ```
-</details>
 
 ## Packages
 
@@ -123,24 +106,25 @@ Write here.
 
 Below are a collection of rubric items to self assess your report.
 
-> [!TIP]
->
-> ### Rubric items
->
-> - Report should include 1-2 visualizations with accompanying summary
->   statistics per research question.
->
-> - All visualizations should be appropriately labeled, including having
->   a title and customized axes.
->
-> - Only plots and summary statistics that are relevant to the research
->   question(s) should be created.
->
-> - Should come to the conclusion that the more potent the pesticide,
->   the less decrease in volume of solution.
->
-> - Should come to the conclusion that regardless of treatment, the mean
->   decrease is volume of solution is roughly 10 more for the top 4 rows
->   than the bottom 4 rows.
+
+<details>
+  <summary>Rubric items</summary>
+ - Report should include 1-2 visualizations with accompanying summary
+   statistics per research question.
+
+ - All visualizations should be appropriately labeled, including having
+   a title and customized axes.
+
+ - Only plots and summary statistics that are relevant to the research
+   question(s) should be created.
+
+ - Should come to the conclusion that the more potent the pesticide,
+   the less decrease in volume of solution.
+
+ - Should come to the conclusion that regardless of treatment, the mean
+   decrease is volume of solution is roughly 10 more for the top 4 rows
+   than the bottom 4 rows.
+
+</details>
 
 ## References
