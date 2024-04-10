@@ -8,8 +8,9 @@
 > This is a final project for course 1. This will not be graded, and is
 > intended to provide you with the opportunity to test the skills you’ve
 > acquired throughout the course in a less structured environment.
-> Reflection questions and rubric items can be found at the end of the
-> project to help self-assessment.
+> This project is also structured for you to host on a webpage and link as proof of work on your resume / cv. 
+>
+> Rubric items can be found at the end of the README to help self-assessment of your project.
 
 ## Packages
 
