@@ -121,6 +121,10 @@ Below are a collection of rubric items to self assess your report.
 
 </details>
 
+## Challenge
+
+Using these data, come up with your own research question, add it to your written report, and investigate!
+
 ## Acknowledgements
 
 This final project was inspired from a tidymodels data set. 
