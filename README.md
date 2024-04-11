@@ -30,7 +30,7 @@ what you have learned about your research question(s) and describe the key resul
 
 ## Description
 
-<img align="right" src="images/taxi.png" width="300" height="350" /> 
+<img align="right" src="images/taxi.png" width="300" height="280" /> 
 
 These data contain information on a subset of taxi trips in the city of Chicago in 2022. Researchers are interested in 
 what factors contribute to a passanger tipping their driver. A data table can be seen below:
