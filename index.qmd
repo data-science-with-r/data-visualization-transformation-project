@@ -11,16 +11,17 @@ bibliography: references.bib
 #| warning: false
 #| message: false
 library(tidyverse)
+library(tidymodels)
 library(scales)
 ```
 
 ## Introduction
 
-![](images/orchard.jpg){style="float: right;" fig-align="center" width="300" height="350"}
+![](images/credit.jpg){style="float: right;" fig-align="center" width="300" height="350"}
 
 
 
-**Research Question**: Using the `OrchardSprays` data set in R, you are tasked to investigate which treatment(s) of pesticides produced the highest decrease in solution. Additionally, you are interested in seeing if, regardless of treatment, the first four rows of the orchard showed more or less of a decrease in solutions than the last four rows. 
+**Research Question**: Using the `credit_data` data set in the `tidymodels` pacakge, you are tasked to investigate which treatment(s) of pesticides produced the highest decrease in solution. Additionally, you are interested in seeing if, regardless of treatment, the first four rows of the orchard showed more or less of a decrease in solutions than the last four rows. 
 
 ## Methods 
 
