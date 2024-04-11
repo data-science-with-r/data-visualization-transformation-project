@@ -111,12 +111,13 @@ Below are a collection of rubric items to self assess your report.
  - Only plots and summary statistics that are relevant to the research
    question(s) should be created.
 
- - Should come to the conclusion that the more potent the pesticide,
-   the less decrease in volume of solution.
+ - Should come to the conclusion that there is a relationship between longer
+   taxi rides and those who tip (~ 2 miles difference between tip and no tip).
 
- - Should come to the conclusion that regardless of treatment, the mean
-   decrease is volume of solution is roughly 10 more for the top 4 rows
-   than the bottom 4 rows.
+ - Should come to the conclusion that, regardless if the taxi ride is on a weekday or weekend, passangers who tip tend to be riding for a longer distance.
+   taxi rides and those who tip (~ 2 miles difference between tip and no tip).
+
+ - Should come to the conclusion that there is some to little evidence of a relationship between those who tip for Chicago Independents (94.8% of the time) and the rest of the companies (91.8%).
 
 </details>
 
