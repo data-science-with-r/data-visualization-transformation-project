@@ -17,9 +17,11 @@
 
 This final project consists of an exploratory data analysis and write up
 of results you discover. The data set you will be working with is a pre-packaged R data set
-called `OrchardSprays`. Your write up, in the project qmd, will consist of two sections.
+called `taxi`. Your write up, in the project qmd, will consist of three sections.
 
-**Methods** - The methods section should include visualizations and
+**Introduction** - The introduction should be a brief summary of the data you are working with in your own words, and the research question(s) you aim to address in your write up. 
+
+**Results** - The results section should include visualizations and
 summary statistics relevant to your research question(s). These should
 be accompanied with written descriptions.
 
