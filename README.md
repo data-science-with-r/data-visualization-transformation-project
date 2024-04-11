@@ -19,6 +19,8 @@ This final project consists of an exploratory data analysis and write up
 of results you discover. The data set you will be working with is a pre-packaged R data set
 called `taxi`. Your write up, in the project qmd, will consist of three sections.
 
+<img align="right" src="images/taxi.png" width="300" height="280" />
+
 **Introduction** - The introduction should be a brief summary of the data you are working with in your own words, and the research question(s) you aim to address in your write up. 
 
 **Results** - The results section should include visualizations and
@@ -28,9 +30,7 @@ be accompanied with written descriptions.
 **Discussion** - The discussion section should include a written summary of
 what you have learned about your research question(s) and describe the key results from your analysis.
 
-## Description
-
-<img align="right" src="images/taxi.png" width="300" height="280" /> 
+## Description 
 
 These data contain information on a subset of taxi trips in the city of Chicago in 2022. Researchers are interested in 
 what factors contribute to a passanger tipping their driver. A data table can be seen below:
