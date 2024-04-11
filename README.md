@@ -51,18 +51,6 @@ Specifically, you are tasked to investigate if there there a relationship betwee
 You are also tasked to investigate if taxi passengers tend to tip more for the company Chicago Independents than the other companies?
 
 
-
-A data table for this experiment can be seen below:
-
-
-
-
-**Research Question**: You are tasked to investigate which treatment(s)
-of pesticides produced the highest decrease in solution. Additionally,
-you are interested in seeing if, regardless of treatment, the first four
-rows of the orchard showed more or less of a decrease in solutions than
-the last four rows.
-
 Hint: you may need to make a new variable in order to answer the second
 research question. You may also find the function
 [`if_else()`](https://dplyr.tidyverse.org/reference/if_else.html)
