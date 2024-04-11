@@ -28,7 +28,7 @@ be accompanied with written descriptions.
 **Discussion** - The discussion section should include a written summary of
 what you have learned about your research question(s) and describe the key results from your analysis.
 
-## Introduction
+## Description
 
 <img align="right" src="images/taxi.png" width="300" height="350" /> 
 
@@ -46,28 +46,11 @@ what factors contribute to a passanger tipping their driver. A data table can be
 | `month`    | The month in which the trip began, as a factor                                               |
 | `hour`    | The hour of the day in which the trip began, as a numeric|
 
+Specifically, you are tasked to investigate if there there a relationship between the distance (in miles) someone travels in a taxi, and if they tip or not? Does this relationship change if the taxi ride is on the weekend (Sat; Sun) vs the weekday?
+
+You are also tasked to investigate if taxi passengers tend to tip more for the company Chicago Independents than the other companies?
 
 
-
-exported here are a pre-processed subset motivated by the modeling problem of predicting whether a rider will tip or not.
-
-An orchard is a plantation of trees or shrubs that is maintained for
-food production. Often, pesticides are used to control for various pests
-and disease carriers. However, an unintended consequence of using
-pesticides is the deterrent of honeybees. The presence of honeybees in
-orchards is crucial for the production of food.
-
-Researchers conducted an experiment to assess the potency of various
-pesticides in repelling honeybees. There was a total of 8 different
-levels of pesticide (`treatment`) with varying amounts of lime sulphur.
-Each of these 8 treatments were used 8 times, randomly assigned to the
-orchard that was divided into 64 squares.
-
-The response variable (`decrease`) for the different treatment levels of
-pesticides were obtained by releasing 100 bees into each square for 2
-hours and measuring the decrease in volume of the solutions. A decrease
-in solution means that the honey bees are not repelled and are visiting
-the plants as normal [McNeil, 1977](https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/OrchardSprays.html).
 
 A data table for this experiment can be seen below:
 
@@ -151,6 +134,6 @@ Below are a collection of rubric items to self assess your report.
 
 ## Acknowledgements
 
-This final project was inspired by McNeil D. R. 
+This final project was inspired from a tidymodels data set. 
 
-McNeil, D. R. 1977. Interactive Data Analysis: A Practical Primer. A Wiley-Interscience Publication. Wiley. https://books.google.com/books?id=fuBQAAAAMAAJ.
+Kuhn M (2024). modeldata: Data Sets Useful for Modeling Examples. R package version 1.3.0, https://github.com/tidymodels/modeldata, https://modeldata.tidymodels.org.
