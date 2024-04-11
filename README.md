@@ -30,7 +30,26 @@ what you have learned about your research question(s) and describe the key resul
 
 ## Introduction
 
-<img align="right" src="images/credit.jpg" width="300" height="350" /> 
+<img align="right" src="images/taxi.png" width="300" height="350" /> 
+
+These data contain information on a subset of taxi trips in the city of Chicago in 2022. Researchers are interested in 
+what factors contribute to a passanger tipping their driver. A data table can be seen below:
+
+| variable    | description                                                             |
+|-------------|-------------------------------------------------------------------------|
+| `tip`    | Whether the rider left a tip. A factor with levels "yes" and "no"|
+| `distance`    | The trip distance, in odometer miles|
+| `company` | The taxi company, as a factor. Companies that occurred few times were binned as "other" |
+| `Time`  | time of requested loan                                     |
+| `local`    | Whether the trip's starting and ending locations are in the same community. See the source data for community area values|
+| `dow`    | The day of the week in which the trip began, as a factor|
+| `month`    | The month in which the trip began, as a factor                                               |
+| `hour`    | The hour of the day in which the trip began, as a numeric|
+
+
+
+
+exported here are a pre-processed subset motivated by the modeling problem of predicting whether a rider will tip or not.
 
 An orchard is a plantation of trees or shrubs that is maintained for
 food production. Often, pesticides are used to control for various pests
@@ -52,22 +71,7 @@ the plants as normal [McNeil, 1977](https://stat.ethz.ch/R-manual/R-devel/librar
 
 A data table for this experiment can be seen below:
 
-| variable    | description                                                             |
-|-------------|-------------------------------------------------------------------------|
-| `Status`    | credit status                                               |
-| `Seniority`    | job seniority (years)                                            |
-| `Home` | type of home ownership |
-| `Time`  | time of requested loan                                     |
-| `Age`    | client's age                                              |
-| `Marital`    | marital status                                               |
-| `Records`    | existance of records                                               |
-| `Job`    | type of job                                               |
-| `Expenses`    | amount of expenses                                              |
-| `Income`    | amount of income                                               |
-| `Assets`    | amount of assets                                               |
-| `Debt`    | amount of debt                                               |
-| `Amount`    | amount requested of loan                                              |
-| `Price`    | price of good                                               |
+
 
 
 **Research Question**: You are tasked to investigate which treatment(s)
