@@ -28,7 +28,7 @@ what you have learned about your research question(s) and describe the key resul
 
 ## Introduction
 
-<img align="right" src="images/orchard.jpg" width="300" height="350" /> 
+<img align="right" src="images/credit.jpg" width="300" height="350" /> 
 
 An orchard is a plantation of trees or shrubs that is maintained for
 food production. Often, pesticides are used to control for various pests
@@ -52,10 +52,21 @@ A data table for this experiment can be seen below:
 
 | variable    | description                                                             |
 |-------------|-------------------------------------------------------------------------|
-| `rowpos`    | numeric row of the design                                               |
-| `colpos`    | numeric column of the design                                            |
-| `treatment` | treatment level (A having the highest level … H having no lime sulphur) |
-| `decrease`  | decrease in volume of the solutions                                     |
+| `Status`    | credit status                                               |
+| `Seniority`    | job seniority (years)                                            |
+| `Home` | type of home ownership |
+| `Time`  | time of requested loan                                     |
+| `Age`    | client's age                                              |
+| `Marital`    | marital status                                               |
+| `Records`    | existance of records                                               |
+| `Job`    | type of job                                               |
+| `Expenses`    | amount of expenses                                              |
+| `Income`    | amount of income                                               |
+| `Assets`    | amount of assets                                               |
+| `Debt`    | amount of debt                                               |
+| `Amount`    | amount requested of loan                                              |
+| `Price`    | price of good                                               |
+
 
 **Research Question**: You are tasked to investigate which treatment(s)
 of pesticides produced the highest decrease in solution. Additionally,
