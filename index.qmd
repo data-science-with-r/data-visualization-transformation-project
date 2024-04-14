@@ -1,5 +1,6 @@
 ---
 title: "Project"
+author: "Insert Name Here"
 subtitle: "Investigation into Chicago taxis"
 echo: false
 bibliography: references.bib
@@ -35,6 +36,5 @@ Write / create here.
 ## Discussion
 
 Write here.
-
 
 
