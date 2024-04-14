@@ -19,6 +19,8 @@ This final project consists of an exploratory data analysis and write up
 of results you discover. The data set you will be working with is a pre-packaged R data set
 called `taxi`. Your write up, in the project qmd, will consist of three sections.
 
+<img align="right" src="images/taxi.png" width="300" height="280" />
+
 **Introduction** - The introduction should be a brief summary of the data you are working with in your own words, and the research question(s) you aim to address in your write up. 
 
 **Results** - The results section should include visualizations and
@@ -28,9 +30,7 @@ be accompanied with written descriptions.
 **Discussion** - The discussion section should include a written summary of
 what you have learned about your research question(s) and describe the key results from your analysis.
 
-## Introduction
-
-<img align="right" src="images/taxi.png" width="300" height="350" /> 
+## Description 
 
 These data contain information on a subset of taxi trips in the city of Chicago in 2022. Researchers are interested in 
 what factors contribute to a passanger tipping their driver. A data table can be seen below:
@@ -46,39 +46,10 @@ what factors contribute to a passanger tipping their driver. A data table can be
 | `month`    | The month in which the trip began, as a factor                                               |
 | `hour`    | The hour of the day in which the trip began, as a numeric|
 
+Specifically, you are tasked to investigate if there there a relationship between the distance (in miles) someone travels in a taxi, and if they tip or not? Does this relationship change if the taxi ride is on the weekend (Sat; Sun) vs the weekday?
 
+You are also tasked to investigate if taxi passengers tend to tip more for the company Chicago Independents than the other companies?
 
-
-exported here are a pre-processed subset motivated by the modeling problem of predicting whether a rider will tip or not.
-
-An orchard is a plantation of trees or shrubs that is maintained for
-food production. Often, pesticides are used to control for various pests
-and disease carriers. However, an unintended consequence of using
-pesticides is the deterrent of honeybees. The presence of honeybees in
-orchards is crucial for the production of food.
-
-Researchers conducted an experiment to assess the potency of various
-pesticides in repelling honeybees. There was a total of 8 different
-levels of pesticide (`treatment`) with varying amounts of lime sulphur.
-Each of these 8 treatments were used 8 times, randomly assigned to the
-orchard that was divided into 64 squares.
-
-The response variable (`decrease`) for the different treatment levels of
-pesticides were obtained by releasing 100 bees into each square for 2
-hours and measuring the decrease in volume of the solutions. A decrease
-in solution means that the honey bees are not repelled and are visiting
-the plants as normal [McNeil, 1977](https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/OrchardSprays.html).
-
-A data table for this experiment can be seen below:
-
-
-
-
-**Research Question**: You are tasked to investigate which treatment(s)
-of pesticides produced the highest decrease in solution. Additionally,
-you are interested in seeing if, regardless of treatment, the first four
-rows of the orchard showed more or less of a decrease in solutions than
-the last four rows.
 
 Hint: you may need to make a new variable in order to answer the second
 research question. You may also find the function
@@ -140,17 +111,22 @@ Below are a collection of rubric items to self assess your report.
  - Only plots and summary statistics that are relevant to the research
    question(s) should be created.
 
- - Should come to the conclusion that the more potent the pesticide,
-   the less decrease in volume of solution.
+ - Should come to the conclusion that there is a relationship between longer
+   taxi rides and those who tip (~ 2 miles difference between tip and no tip).
 
- - Should come to the conclusion that regardless of treatment, the mean
-   decrease is volume of solution is roughly 10 more for the top 4 rows
-   than the bottom 4 rows.
+ - Should come to the conclusion that, regardless if the taxi ride is on a weekday or weekend, passangers who tip tend to be riding for a longer distance.
+   taxi rides and those who tip (~ 2 miles difference between tip and no tip).
+
+ - Should come to the conclusion that there is some to little evidence of a relationship between those who tip for Chicago Independents (94.8% of the time) and the rest of the companies (91.8%).
 
 </details>
 
+## Challenge
+
+Using these data, come up with your own research question, add it to your written report, and investigate!
+
 ## Acknowledgements
 
-This final project was inspired by McNeil D. R. 
+This final project was inspired from a tidymodels data set. 
 
-McNeil, D. R. 1977. Interactive Data Analysis: A Practical Primer. A Wiley-Interscience Publication. Wiley. https://books.google.com/books?id=fuBQAAAAMAAJ.
+Kuhn M (2024). modeldata: Data Sets Useful for Modeling Examples. R package version 1.3.0, https://github.com/tidymodels/modeldata, https://modeldata.tidymodels.org.
