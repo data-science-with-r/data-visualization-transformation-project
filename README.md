@@ -116,6 +116,16 @@ Below are a collection of rubric items to self assess your report.
 
 Using these data, come up with a third research question, add it to your written report, and investigate!
 
+## Reflection
+
+<details>
+<summary>Reflection questions</summary>
+
+-
+-
+-
+
+</details>
 ## Acknowledgements
 
 This final project was inspired from a tidymodels data set. 
