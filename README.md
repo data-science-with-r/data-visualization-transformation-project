@@ -23,8 +23,9 @@ called `taxi`. Your write up, in the project qmd, will consist of three question
 
 ## Description 
 
-These data contain information on a subset of taxi trips in the city of Chicago in 2022. Researchers are interested in 
-what factors contribute to a passanger tipping their driver. A data table can be seen below:
+A taxi is a type of vehicle for hire with a driver. Often seen as a yellow vehicle, taxi drivers charge passangers money to transport them from one place to another. These data contain information on a subset of taxi trips in the city of Chicago in 2022. You may have some initial hypotheses on how the taxi system works! For example, it may be reasonable to think the longer the taxi ride is, the more likely they are to tip or not. Or, we may wonder if one taxi company tends to get more tips than the others...
+
+A data table can be seen below:
 
 | variable    | description                                                             |
 |-------------|-------------------------------------------------------------------------|
@@ -37,9 +38,11 @@ what factors contribute to a passanger tipping their driver. A data table can be
 | `month`    | The month in which the trip began, as a factor                                               |
 | `hour`    | The hour of the day in which the trip began, as a numeric|
 
-Specifically, you are tasked to investigate if there there a relationship between the distance (in miles) someone travels in a taxi, and if they tip or not? Does this relationship change if the taxi ride is on the weekend (Sat; Sun) vs the weekday?
+You are tasked to use these data to explore the following questions: 
 
-You are also tasked to investigate if taxi passengers tend to tip more for the company Chicago Independents than the other companies?
+1) Is there there a relationship between the distance (in miles) someone travels in a taxi, and if they tip or not? 
+
+2) Do taxi passengers tend to tip more for the company Chicago Independents than the other companies?
 
 
 Hint: you may need to make a new variable in order to answer the second
