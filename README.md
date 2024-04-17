@@ -118,12 +118,15 @@ Using these data, come up with a third research question, add it to your written
 
 ## Reflection
 
+These reflection questions are designed to help you critically assess and promote a more complete understanding of the skills you've learned throughout this project, as well as identify tools that you need to continue practicing. You are encouraged to write out these answers on your personal device. 
+
 <details>
 <summary>Reflection questions</summary>
 
--
--
--
+- What were some strategies you used to effectivly answer each research question?
+- What did you find challanging when working through the project? What strategies did you use to overcome these challanges?
+- Identify one skill after completing this project that you wish to continue bettering.
+- What communication strategies did you use when articulating your findings? Are they effective to a broader audience? 
 
 </details>
 
