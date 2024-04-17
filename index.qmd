@@ -16,25 +16,12 @@ library(tidymodels)
 library(scales)
 ```
 
-## Introduction
-
-Write here.
-
-![](images/taxi.png){style="float: right;" fig-align="center" width="300" height="280"}
+## Question 1
 
 
+## Question 2 
 
-**Research Question (1)**: Is there a relationship between the distance (in miles) someone travels in a taxi, and if they tip or not? Does this relationship change if the taxi ride is on the weekend (Sat; Sun) vs the weekday?
 
-**Research Question (2)**: Do taxi passengers tend to tip more for the company Chicago Independents than the other companies? 
- 
-
-## Results
-
-Write / create here.
-
-## Discussion
-
-Write here.
+## Your own question 
 
 
