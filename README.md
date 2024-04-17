@@ -23,7 +23,7 @@ called `taxi`. Your write up, in the project qmd, will consist of three question
 
 ## Description 
 
-A taxi is a type of vehicle for hire with a driver. Often seen as a yellow vehicle, taxi drivers charge passangers money to transport them from one place to another. These data contain information on a subset of taxi trips in the city of Chicago in 2022. You may have some initial hypotheses on how the taxi system works! For example, it may be reasonable to think the longer the taxi ride is, the more likely they are to tip or not. Or, we may wonder if one taxi company tends to get more tips than the others...
+A taxi is a type of vehicle for hire with a driver. Often seen as a yellow vehicle, taxi drivers charge passangers money to transport them from one place to another. These data contain information on a subset of taxi trips in the city of Chicago in 2022. You may have some initial hypotheses on how the taxi system works! For example, it may be reasonable to think the longer the taxi ride is, the more likely they are to tip or not. If someone is considering working for a taxi company, they may wonder if one company tends to get more tips than the others...
 
 A data table can be seen below:
 
