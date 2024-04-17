@@ -126,6 +126,7 @@ Using these data, come up with a third research question, add it to your written
 -
 
 </details>
+
 ## Acknowledgements
 
 This final project was inspired from a tidymodels data set. 
