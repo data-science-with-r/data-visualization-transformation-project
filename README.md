@@ -117,7 +117,7 @@ Below are a collection of rubric items to self assess your report.
 
 ## Challenge
 
-Using these data, come up with your own research question, add it to your written report, and investigate!
+Using these data, come up with a third research question, add it to your written report, and investigate!
 
 ## Acknowledgements
 
