@@ -12,7 +12,9 @@
 >
 > Rubric items can be found at the end of the README in the Self rubric section to help self-assessment of your project. Do not expand the rubric items until you have finished a draft of your project.
 >
-> ## Before you start
+
+
+## Before you start
 
 Note, if you are on Windows or Linux, you will need to install Git. If you do not have git installed, please do so: 
 Windows ->  https://git-scm.com/download/win
