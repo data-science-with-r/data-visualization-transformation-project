@@ -17,7 +17,9 @@
 ## Before you start
 
 Note, if you are on Windows or Linux, you will need to install Git. If you do not have git installed, please do so: 
+
 Windows ->  https://git-scm.com/download/win
+
 Linux   ->  https://git-scm.com/download/linux
 
 
