@@ -68,7 +68,7 @@ Once you restart R, you will be able to clone this project repository and get wo
 
 This final project consists of an exploratory data analysis and write up
 of results you discover. The data set you will be working with is a pre-packaged R data set
-called `taxi`. Your write up, in the project qmd, will consist of three questions.
+called `taxi`. Your write up, in index.qmd, will explore (at least) two questions.
 
 <img align="right" src="images/taxi.png" width="300" height="280" />
 
