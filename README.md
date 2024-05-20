@@ -35,8 +35,35 @@ usethis::use_git_config(
   user.email = "Email associated with your GitHub account"
  )
 ```
-Please make sure that you replace "YourName" with your actual name, and "your@mail.com" with your email used for your GitHub account. 
+Please make sure that you replace "YourName" with your actual name, and "Email associated with your GitHub account" with your email used for your GitHub account. 
 
+### Create and authenticate your personal access token 
+
+In the console, run the following to geneate your personal access token (PAT) 
+
+```
+usethis::create_github_token()
+```
+
+Next, fun the following and paste your PAT in:
+
+```
+gitcreds::gitcreds_set()
+```
+
+### Getting started 
+
+Once you restart R, you will be able to clone this project repository and get working! To clone this project: 
+- Click the green code button on the repo
+- Copy the HTTPS
+- Open a new project in RStudio
+- Click version control and then Git
+- Paste the copied HTTP in the Repository URL box.
+- Name the project directory
+- Browse and select where this project will be saved
+- Click create project!
+
+Remember to practice good version control workflow, using pull, commit, and push at a variety of self-selected checkpoints!
 
 
 ## Instructions
