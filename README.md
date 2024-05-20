@@ -16,11 +16,23 @@
 
 ## Before you start
 
+### Download Git
+
 Note, if you are on Windows or Linux, you will need to install Git. If you do not have git installed, please do so: 
 
 Windows ->  https://git-scm.com/download/win
 
 Linux   ->  https://git-scm.com/download/linux
+
+### Configure git with RStudio 
+
+In the terminal, run the following: 
+```
+usethis::use_git_config(
+	user.name = "YourName",
+	user.email = "your@mail.com")
+```
+Please make sure that you replace "YourName" with your actual name, and "your@mail.com" with your email used for your GitHub account. 
 
 
 ## Instructions
