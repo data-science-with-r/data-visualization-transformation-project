@@ -63,8 +63,6 @@ Once you restart R, you will be able to clone this project repository and get wo
 - Browse and select where this project will be saved
 - Click create project!
 
-Remember to practice good version control workflow, using pull, commit, and push at a variety of self-selected checkpoints!
-
 
 ## Instructions
 
