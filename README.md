@@ -16,6 +16,8 @@
 
 ## Before you start
 
+Please complete the following steps before getting started if you have not downloaded and configured Git. 
+
 ### Download Git
 
 Note, if you are on Windows or Linux, you will need to install Git. If you do not have git installed, please do so: 
