@@ -72,7 +72,7 @@ This final project consists of an exploratory data analysis and write up
 of results you discover. The data set you will be working with is a pre-packaged R data set
 called `taxi`. Your write up, in index.qmd, will explore (at least) two questions.
 
-<img align="right" src="images/taxi.png" width="300" height="280" />
+<img align="right" src="images/taxi.png" width="300" height="180" />
 
 ## Description 
 
@@ -90,6 +90,8 @@ A data table is below:
 | `dow`    | The day of the week in which the trip began, as a factor|
 | `month`    | The month in which the trip began, as a factor                                               |
 | `hour`    | The hour of the day in which the trip began, as a numeric|
+
+## Research Questions
 
 You are tasked to use these data to explore the following questions: 
 
