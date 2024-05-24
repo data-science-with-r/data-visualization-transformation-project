@@ -29,7 +29,7 @@ Linux   ->  https://git-scm.com/download/linux
 ### Configure git with RStudio 
 
 In the console, run the following: 
-```
+```r
 install.packages("usethis")
 
 usethis::use_git_config(
@@ -43,13 +43,13 @@ Please make sure that you replace "YourName" with your actual name, and "Email a
 
 In the console, run the following to geneate your personal access token (PAT) 
 
-```
+```r
 usethis::create_github_token()
 ```
 
 Next, fun the following and paste your PAT in:
 
-```
+```r
 gitcreds::gitcreds_set()
 ```
 
