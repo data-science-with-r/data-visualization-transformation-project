@@ -5,10 +5,10 @@
 >
 > ### 
 >
-> This is a final project for course 1. This will not be graded, and is
+> This is the final project for course 1. This will not be graded, and is
 > intended to provide you with the opportunity to test the skills you’ve
 > acquired throughout the course in a less structured environment.
-> This project is also structured for you to host on a webpage and link as proof of work on your resume / cv. 
+> This project is also structured for you to host on a webpage and link as proof of work on your resume or CV. 
 >
 > Rubric items can be found at the end of the README in the Self rubric section to help self-assessment of your project. Do not expand the rubric items until you have finished a draft of your project.
 >
@@ -20,7 +20,7 @@ Please complete the following steps before getting started if you have not downl
 
 ### Download Git
 
-Note, if you are on Windows or Linux, you will need to install Git. If you do not have git installed, please do so: 
+Note, if you are on Windows or Linux, you will need to install Git.  If you do not have git installed, please do so: 
 
 Windows ->  https://git-scm.com/download/win
 
@@ -47,7 +47,7 @@ In the console, run the following to geneate your personal access token (PAT)
 usethis::create_github_token()
 ```
 
-Next, fun the following and paste your PAT in:
+Next, run the following and paste your PAT in:
 
 ```r
 gitcreds::gitcreds_set()
@@ -60,7 +60,7 @@ Once you restart R, you will be able to clone this project repository and get wo
 - Copy the HTTPS
 - Open a new project in RStudio
 - Click version control and then Git
-- Paste the copied HTTP in the Repository URL box.
+- Paste the copied HTTPS in the Repository URL box.
 - Name the project directory
 - Browse and select where this project will be saved
 - Click create project!
@@ -76,9 +76,9 @@ called `taxi`. Your write up, in index.qmd, will explore (at least) two question
 
 ## Description 
 
-A taxi is a type of vehicle for hire with a driver. Often seen as a yellow vehicle, taxi drivers charge passangers money to transport them from one place to another. These data contain information on a subset of taxi trips in the city of Chicago in 2022. You may have some initial hypotheses on how the taxi system works! For example, it may be reasonable to think the longer the taxi ride is, the more likely they are to tip or not. If someone is considering working for a taxi company, they may wonder if one company tends to get more tips than the others...
+A taxi is a type of vehicle for hire with a driver. Often seen as a yellow vehicle, taxi drivers charge passengers money to transport them from one place to another. These data contain information on a subset of taxi trips in the city of Chicago in 2022. You may have some initial hypotheses on how the taxi system works! For example, it may be reasonable to think the longer the taxi ride is, the more likely a passenger is to tip. If someone is considering working for a taxi company, they may wonder if one company tends to get more tips than the others.
 
-A data table can be seen below:
+A data table is below:
 
 | variable    | description                                                             |
 |-------------|-------------------------------------------------------------------------|
@@ -93,7 +93,7 @@ A data table can be seen below:
 
 You are tasked to use these data to explore the following questions: 
 
-1) Is there there a relationship between the distance (in miles) someone travels in a taxi, and if they tip or not? 
+1) Is there there a relationship between the distance (in miles) someone travels in a taxi and if they tip or not? 
 
 2) Do taxi passengers tend to tip more for the company Chicago Independents than the other companies?
 
@@ -138,7 +138,7 @@ When working on your project, you may want to include outside sources. When doin
 	doi          = {10.1080/10691898.2020.1804497}
 }
 ```
-In this entry above, Cetinkaya2020 is the citation identifier. To default way to cite an entry in your text is with this syntax: [@citation-identifier].
+In this entry above, `Cetinkaya2020` is the citation identifier. The default way to cite an entry in your text is with this syntax: [@citation-identifier].
 
 To automatically generate a references section with your entries, the path to the .bib file needs to be specified in your YAML with bibliography: references.bib. This has been done for you. 
 
@@ -177,7 +177,7 @@ These reflection questions are designed to help you critically assess and promot
 <summary>Reflection questions</summary>
 
 - What were some strategies you used to effectivly answer each research question?
-- What did you find challanging when working through the project? What strategies did you use to overcome these challanges?
+- What did you find challanging when working through the project? What strategies did you use to overcome these challenges?
 - Identify one skill after completing this project that you wish to continue bettering.
 - What communication strategies did you use when articulating your findings? Are they effective to a broader audience? 
 
@@ -185,6 +185,6 @@ These reflection questions are designed to help you critically assess and promot
 
 ## Acknowledgements
 
-This final project was inspired from a tidymodels data set. 
+This final project was inspired by a tidymodels data set. 
 
 Kuhn M (2024). modeldata: Data Sets Useful for Modeling Examples. R package version 1.3.0, https://github.com/tidymodels/modeldata, https://modeldata.tidymodels.org.
